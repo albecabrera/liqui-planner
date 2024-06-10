@@ -19,3 +19,5 @@ let ausgaben;
 let bilanz;
 
 
+
+
