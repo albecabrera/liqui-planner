@@ -1,11 +1,9 @@
 "use strict";
 
-/*
 let iban = "DE6206752564419854";
 let bic = "WEASE5PXHK";
 let kontostand = 3500;
 let aktiv = true;
-*/
 
 let konto_1 = {
   iban: "DE6206752564419854",
@@ -24,3 +22,5 @@ let konto_2 = {
 };
 
 console.log(konto_2);
+
+(Aufgabe) => Inhaber - Objekt(Vornamen, Nachname, Geschlecht, Alter);
