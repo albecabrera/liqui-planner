@@ -80,5 +80,14 @@ mein_auto = {
   zustand: "neu",
   preis: 50000,
 };
-
+/*
+- schnappt euch Auto-Objekt aus letzter Lektion
+- fügt Eingenschaft PS hinzu
+- verändert das MODELL des Autos
+- gebt Template-String "Ein ... ... hat ...PS..." aus
 console.log(mein_auto);
+*/
+
+auto.ps = 150;
+auto.modell = "X6";
+console.log("Ein ${auto.marke} ${auto.modell} hat ${auto.ps} PS");
