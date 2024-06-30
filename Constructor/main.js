@@ -28,6 +28,25 @@ let player2 = new Player('Luigi', 'verde');
 // console.log(player1.saludar());
 // console.log(player2.saludar());
 
-console.log(player1._nombre); 
-player1._nombre = 'Alberto';
-console.log(player1._nombre);
+console.log(player1.nombre); 
+player1.nombre = 'Alberto';
+console.log(player1.nombre);
+
+// Creacioón de una Subclase
+
+class Pet extends Player {
+  constructor(nombre, colorSombrero, colorPiel) {
+   super(nombre, colorSombrero);
+   this._colorPiel = colorPiel;
+  }
+  get colorPiel() {
+    return this._colorPiel
+}
+set colorPiel(nuevoColorPiel) {
+  this._colorPiel = nuevoColorPiel
+
+}
+}
+
+let pet1 = new Pet('Yoshi', 'Invisible', 'Verde');
+console.log(pet1);
