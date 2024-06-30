@@ -12,11 +12,22 @@ class Player {
   }
 }
 
+get nombre() {
+  return this._nombre;
+}
+set nombre(nuevoNombre) {
+  this._nombre = nuevoNombre;
+}
+
 let player1 = new Player('Mario', 'rojo');
 let player2 = new Player('Luigi', 'verde');
 
-console.log(player1);
-console.log(player2);
+// console.log(player1);
+// console.log(player2);
 
-console.log(player1.saludar());
-console.log(player2.saludar());
+// console.log(player1.saludar());
+// console.log(player2.saludar());
+
+console.log(player1._nombre); 
+player1._nombre = 'Alberto';
+console.log(player1._nombre);
