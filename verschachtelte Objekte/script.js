@@ -40,7 +40,7 @@ let konto_2 = {
   bic: "WEASE5PXHK",
   inhaber: {
     vorname: "Maria",
-    nachname: "Morena",
+    nachname: "Morena",q
     geschlecht: "weiblich",
     alter: 35,
   },
